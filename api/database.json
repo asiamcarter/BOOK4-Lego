@@ -1,3 +1,79 @@
 {
-  "legos": []
+  "legos": [
+    {
+      "creatorName": "",
+      "legoName": "",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 1
+    },
+    {
+      "creatorName": "",
+      "legoName": "sdfsdf",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 2
+    },
+    {
+      "creatorName": "",
+      "legoName": "",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 3
+    },
+    {
+      "creatorName": "sadas",
+      "legoName": "",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 4
+    },
+    {
+      "creatorName": "uibj",
+      "legoName": "knl",
+      "legoColor": "kln",
+      "legoShape": "knl",
+      "id": 5
+    },
+    {
+      "creatorName": "",
+      "legoName": "",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 6
+    },
+    {
+      "creatorName": "",
+      "legoName": "",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 7
+    }
+  ],
+  "colors": [
+    {
+      "name": "red",
+      "id": 1
+    },
+    {
+      "name": "green",
+      "id": 2
+    },
+    {
+      "name": "yellow",
+      "id": 3
+    },
+    {
+      "name": "blue",
+      "id": 4
+    },
+    {
+      "name": "orange",
+      "id": 5
+    },
+    {
+      "name": "black",
+      "id": 6
+    }
+  ]
 }

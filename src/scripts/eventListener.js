@@ -16,5 +16,6 @@ const eventListeners = {
         };
         // Post to API and pass legoToSave
         data.postLego(legoObject);
+        data.getColor();
     }
 };

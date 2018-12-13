@@ -7,7 +7,15 @@ const data = {
         },
         body: JSON.stringify(legoToSave)
         });
+    },
+    getColor () {
+        fetch("http://localhost:8088/colors")
+        .then(colors => colors.json())
+        .then(parsedColors => {
+        console.log(parsedColors);
+    })
     }
+};
     // deleteLego (legoId) {
     //     fetch(`http://localhost:8088/legos/${legoId}`, {
     //     method: "DELETE",
@@ -16,5 +24,10 @@ const data = {
     //     },
     //     });
     // above is used to delete a lego, with the id as an arguement
-    };
+
+
+
+
+
+
 
