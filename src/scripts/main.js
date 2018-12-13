@@ -1,0 +1,1 @@
+domBuilder.appendInputForm();
