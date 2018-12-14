@@ -5,7 +5,8 @@ const eventListeners = {
         const creator = document.querySelector("#lego__creator").value;
         const name = document.querySelector("#lego__name").value;
         const shape = document.querySelector("#lego__shape").value;
-        const color = document.querySelector("#lego__color").value;
+        const color = document.querySelector("#lego__color").textContent;
+
 
         //create an object to represent a lego
         const legoObject = {
@@ -16,6 +17,6 @@ const eventListeners = {
         };
         // Post to API and pass legoToSave
         data.postLego(legoObject);
-        data.getColor();
+
     }
 };
