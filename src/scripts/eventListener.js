@@ -8,6 +8,9 @@ const eventListeners = {
         const color = document.querySelector("#lego__color").value;
 
 
+
+
+
         //create an object to represent a lego
         const legoObject = {
             creatorName: creator,

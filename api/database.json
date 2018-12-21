@@ -6,46 +6,32 @@
       "legoColor": "",
       "legoShape": "",
       "id": 1
-    },
-    {
-      "creatorName": "TEST",
-      "legoName": "TEST",
-      "legoColor": "redgreenyellowblueorangeblack",
-      "legoShape": "TEST",
-      "id": 2
-    },
-    {
-      "creatorName": "TEST",
-      "legoName": "TEST",
-      "legoColor": "",
-      "legoShape": "TEST",
-      "id": 3
     }
   ],
   "colors": [
     {
       "name": "red",
-      "id": 1
+      "id": "red"
     },
     {
       "name": "green",
-      "id": 2
+      "id": "green"
     },
     {
       "name": "yellow",
-      "id": 3
+      "id": "yellow"
     },
     {
       "name": "blue",
-      "id": 4
+      "id": "blue"
     },
     {
       "name": "orange",
-      "id": 5
+      "id": "orange"
     },
     {
       "name": "black",
-      "id": 6
+      "id": "black"
     }
   ]
 }
