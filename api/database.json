@@ -1,3 +1,37 @@
 {
-  "legos": []
+  "legos": [
+    {
+      "creatorName": "",
+      "legoName": "",
+      "legoColor": "",
+      "legoShape": "",
+      "id": 1
+    }
+  ],
+  "colors": [
+    {
+      "name": "red",
+      "id": "red"
+    },
+    {
+      "name": "green",
+      "id": "green"
+    },
+    {
+      "name": "yellow",
+      "id": "yellow"
+    },
+    {
+      "name": "blue",
+      "id": "blue"
+    },
+    {
+      "name": "orange",
+      "id": "orange"
+    },
+    {
+      "name": "black",
+      "id": "black"
+    }
+  ]
 }
