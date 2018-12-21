@@ -1,17 +1,5 @@
 const domBuilder = {
-     finColor () {
-
-        data.getColor()
-        .then(parsedColors => {
-             let HTMLcollection = "";
-            parsedColors.forEach(color => {
-             return HTMLcollection += `
-
-                <option value="${color.id}">${color.name}</option>
-
-                `
-            })
-
+     appendForm () {
             let inputForm = `
         <article>
             <fieldset>
@@ -27,14 +15,8 @@ const domBuilder = {
                 <input id="lego__shape" name="lego__shape" type="text" autofocus />
             </fieldset>
             <fieldset>
-                <label>Color:</label>
-
-                <select>
-                <div id = "lego__color">
-                ${HTMLcollection}
-                </div>
-                </select>
-
+                <label for="lego__color">Color:</label>
+                <select id="lego__color"></select>
             </fieldset>
         </article>
         `;
@@ -44,14 +26,25 @@ const domBuilder = {
         var t = document.createTextNode("Save Lego Creation")
         btn.appendChild(t);
         btn.addEventListener("click", eventListeners.handleFormSubmission);
-
         let displayContainer = document.querySelector("#display-container");
         displayContainer.innerHTML = inputForm;
         displayContainer.appendChild(btn);
-    })
+     },
+
+     findColor() {
+        data.getColor()
+        .then (colorObj =>{
+            let HTMLcollection = "";
+            colorObj.forEach (color => {
+                HTMLcollection += `<option value = ${color.id}>${color.name}</option>`
+            })
+            let colorDropdown = document.querySelector("#lego__color");
+            colorDropdown.innerHTML = HTMLcollection;
+        })
+     }
 
 
-        }
+
 
 
         //alternatively you could create all of the elements above using createElement and when you're creating the button add the event listener to the button when you create the element

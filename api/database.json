@@ -8,108 +8,18 @@
       "id": 1
     },
     {
-      "creatorName": "",
-      "legoName": "sdfsdf",
-      "legoColor": "",
-      "legoShape": "",
+      "creatorName": "TEST",
+      "legoName": "TEST",
+      "legoColor": "redgreenyellowblueorangeblack",
+      "legoShape": "TEST",
       "id": 2
     },
     {
-      "creatorName": "",
-      "legoName": "",
+      "creatorName": "TEST",
+      "legoName": "TEST",
       "legoColor": "",
-      "legoShape": "",
+      "legoShape": "TEST",
       "id": 3
-    },
-    {
-      "creatorName": "sadas",
-      "legoName": "",
-      "legoColor": "",
-      "legoShape": "",
-      "id": 4
-    },
-    {
-      "creatorName": "uibj",
-      "legoName": "knl",
-      "legoColor": "kln",
-      "legoShape": "knl",
-      "id": 5
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "",
-      "legoShape": "",
-      "id": 6
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "",
-      "legoShape": "",
-      "id": 7
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "",
-      "legoShape": "",
-      "id": 8
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "dsfdsf",
-      "legoShape": "",
-      "id": 9
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "dsfdsf",
-      "legoShape": "dsfdsf",
-      "id": 10
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "",
-      "legoShape": "dsfdsf",
-      "id": 11
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoShape": "",
-      "id": 12
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": null,
-      "legoShape": "",
-      "id": 13
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": null,
-      "legoShape": "",
-      "id": 14
-    },
-    {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "\n                \n                \n\n                red\n\n                \n\n                green\n\n                \n\n                yellow\n\n                \n\n                blue\n\n                \n\n                orange\n\n                \n\n                black\n\n                \n                \n                ",
-      "legoShape": "",
-      "id": 15
-    },
-    {
-      "creatorName": "klansda",
-      "legoName": "kjasndas",
-      "legoColor": "\n                \n                \n\n                red\n\n                \n\n                green\n\n                \n\n                yellow\n\n                \n\n                blue\n\n                \n\n                orange\n\n                \n\n                black\n\n                \n                \n                ",
-      "legoShape": "jsand",
-      "id": 16
     }
   ],
   "colors": [
